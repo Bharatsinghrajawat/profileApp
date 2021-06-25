@@ -1,0 +1,13 @@
+#profile-container {
+    border: 2px dotted darkblue;
+    display: flex;
+    margin: 5px;
+}
+
+#profile-box {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 4px 4px 4px grey;
+}

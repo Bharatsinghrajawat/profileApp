@@ -1,0 +1,48 @@
+#navbar-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#logo {
+    color : whitesmoke;
+    padding: 1em;
+    flex: 0 2;
+}
+
+form {
+    display: flex;
+    flex: 1 2;
+    justify-content: center;
+    /* max-width: 50%; */
+
+}
+
+/* @media screen and (max-width : 600px) {
+    form {
+        width: 100%;
+    }
+} */
+
+#input-box {
+    width: 50%;
+    height: 34px;
+    display: flex;
+    /* max-width: 100%; */
+    justify-content: center;
+}
+
+@media screen and (max-width : 600px) {
+    #input-box {
+        width: 100%;
+    }
+}
+
+#categories {
+    color: whitesmoke;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    font-size: 1rem;
+}
